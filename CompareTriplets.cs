@@ -26,9 +26,7 @@ class Result
 
     public static List<int> compareTriplets(List<int> a, List<int> b)
     {
-        List<int > arr=new List<int>(){0,0};//this is our list keeps track of a and b                                                    scores 
-        // arr.Add(0);
-        // arr.Add(0);
+        List<int > arr=new List<int>(){0,0};//this is our list keeps track of a and b scores 
         for(int i=0;i<3;i++){
             if(a[i]<b[i]){
                 arr[1]++;
