@@ -26,7 +26,7 @@ class Result
     {
         int sum=0;
         foreach(int num in ar){ // foreach loop in c#-- foreach(data_type var_name in 
-                                                                //collection_variable)
+                                //                               collection_variable)
             sum+=num;
         }
         return sum;
