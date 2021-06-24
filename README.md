@@ -1,1 +1,1 @@
-## HackerRank Algorithms challenges in c#
+## HackerRank Algorithms solutions in c#
