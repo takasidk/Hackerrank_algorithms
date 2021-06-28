@@ -24,7 +24,7 @@ class Result
 
     public static int simpleArraySum(List<int> ar)
     {
-        int sum=0;
+        var sum=0;
         foreach(int num in ar){ // foreach loop in c#-- foreach(data_type var_name in 
                                 //                               collection_variable)
             sum+=num;
