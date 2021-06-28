@@ -26,10 +26,10 @@ class Result
     {
         int leftSum=0;
         int rightSum=0;
-        int size=arr.Count;    //arr.Count gives us the size of the list(number of rows)
-        for(int i=0;i<size;i++){
+        //arr.Count gives us the size of the list(number of rows)
+        for(int i=0;i<arr.Count;i++){
             leftSum+=arr[i][i];
-            rightSum+=arr[i][size-i-1];
+            rightSum+=arr[i][arr.Count-i-1];
         }
         return Math.Abs(leftSum-rightSum);
     }
