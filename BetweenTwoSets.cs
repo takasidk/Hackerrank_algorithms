@@ -26,7 +26,9 @@ class Result
     public static int getTotalX(List<int> a, List<int> b)
     {
         var count=0;
-        for(int num=a.Max();num<=b.Min();++num){
+        var left=a.Max();
+        var right=b.Min();
+        for(int num=left;num<=right;++num){
             if(a.All(e=>num%e==0) && b.All(e=>e%num==0)) count++;
         }
         return count;
