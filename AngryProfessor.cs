@@ -14,7 +14,6 @@ using System;
 
 class Result
 {
-
     /*
      * Link:https://www.hackerrank.com/challenges/angry-professor/problem
      *
@@ -30,7 +29,6 @@ class Result
         if(a[k-1]<=0) return "NO";
         else return "YES";
     }
-
 }
 
 class Solution
