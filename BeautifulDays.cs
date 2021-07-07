@@ -32,6 +32,7 @@ class Result
         }
         return rev;
     }
+    
     public static int beautifulDays(int i, int j, int k)
     {
         var count=0;
