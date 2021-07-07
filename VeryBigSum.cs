@@ -16,17 +16,22 @@ class Result
 {
 
     /*
-     * Complete the 'simpleArraySum' function below.
+     * Complete the 'aVeryBigSum' function below.
      *
-     * The function is expected to return an INTEGER.
-     * The function accepts INTEGER_ARRAY ar as parameter.
+     * The function is expected to return a LONG_INTEGER.
+     * The function accepts LONG_INTEGER_ARRAY ar as parameter.
      */
 
-    public static int simpleArraySum(List<int> ar)
+    public static long aVeryBigSum(List<long> ar)
     {
+<<<<<<< HEAD:SimpleArraySum.cs
         var sum=0;
         foreach(int num in ar){ // foreach loop in c#-- foreach(data_type var_name in 
                                 //                               collection_variable)
+=======
+        long sum=0;// you can use var as well by intializing it to 0L
+        foreach(long num in ar){
+>>>>>>> Day2:VeryBigSum.cs
             sum+=num;
         }
         return sum;
@@ -42,9 +47,9 @@ class Solution
 
         int arCount = Convert.ToInt32(Console.ReadLine().Trim());
 
-        List<int> ar = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt32(arTemp)).ToList();
+        List<long> ar = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt64(arTemp)).ToList();
 
-        int result = Result.simpleArraySum(ar);
+        long result = Result.aVeryBigSum(ar);
 
         textWriter.WriteLine(result);
 
